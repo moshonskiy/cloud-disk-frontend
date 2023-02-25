@@ -36,4 +36,4 @@ You can search by name any file or directory (nesting directories included)
 
 
 ### Screencast with app demonstration
-![screencas with app](https://github.com/moshonskiy/cloud-disk-frontend/blob/main/markdown/screen-capture.webm "App")
+![screencast with app](https://github.com/moshonskiy/cloud-disk-frontend/blob/main/markdown/screen-capture.webm "App")
