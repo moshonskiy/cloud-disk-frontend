@@ -1,0 +1,20 @@
+.disk {
+    width: 100%;
+}
+
+.dndArea {
+    margin-top: 24px;
+    width: 50%;
+    max-width: 800px;
+    height: 250px;
+    padding: 50px;
+    text-align: center;
+}
+
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: inherit;
+    margin-top: 120px;
+}

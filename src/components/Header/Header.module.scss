@@ -1,0 +1,58 @@
+.header {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: var(--white);
+    width: 100%;
+
+    &__container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+    }
+}
+
+.name {
+    line-height: 50px;
+    font-size: 24px;
+    color: var(--font-color);
+    flex-grow: 1;
+    padding-left: 48px;
+}
+
+.actions {
+    display: flex;
+    min-width: 105px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.registerButton {
+    margin-left: 24px;
+}
+
+.avatarWrapper {
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
+    width: 32x;
+    height: 32px;
+}
+
+.avatarImg {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.defaultIcon {
+    width: 32px;
+    height: 32px;
+}

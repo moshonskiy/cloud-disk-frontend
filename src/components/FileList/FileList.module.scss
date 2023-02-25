@@ -1,0 +1,15 @@
+.fileList {
+    margin: 20px 0;
+}
+
+.filePlate {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.emptyFolder {
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}

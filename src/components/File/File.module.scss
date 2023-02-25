@@ -1,0 +1,102 @@
+.file {
+    margin: 10px 0;
+    border-bottom: 1px solid var(--font-color);
+    display: flex;
+
+    &__cursor {
+        cursor: pointer;
+    }
+
+    &.file__plate {
+        border-bottom: none;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 200px;
+        border: 1px solid var(--font-color);
+        border-radius: 4px;
+
+        & .icon {
+            width: 75px;
+            height: 75px;
+        }
+
+        & .file__name {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-width: 200px;
+            margin-left: 0;
+        }
+
+        & .file__downloadButton {
+            margin-left: 0;
+        }
+
+        & .file__deleteButton {
+            margin-left: 0;
+        }
+
+        .plateActions {
+            display: flex;
+            margin-top: 12px;
+            margin-bottom: 12px;
+        }
+    }
+
+    &__left {
+        display: flex;
+        align-items: center;
+        width: 50%;
+    }
+
+    &__right {
+        display: flex;
+        align-items: center;
+        width: 50%;
+    }
+
+    &__name {
+        margin-left: 12px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 300px;
+    }
+
+    &__size {
+        margin-left: 36px;
+        width: 100px;
+    }
+
+    &__downloadButton {
+        margin-left: auto;
+    }
+
+    &__deleteButton {
+        margin-left: auto;
+    }
+
+    @media (max-width: '900px') {
+        flex-direction: column;
+
+        &__left,
+        &__right {
+            width: 100%;
+        }
+
+        &__date {
+            margin-left: 36px;
+        }
+
+        &__name {
+            width: 450px;
+            text-align: center;
+        }
+    }
+}
+
+.actions {
+    display: flex;
+    margin-left: auto;
+}

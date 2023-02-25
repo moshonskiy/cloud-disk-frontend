@@ -1,0 +1,27 @@
+.container {
+    margin-bottom: 24px;
+}
+
+.fileItem {
+    width: 400px;
+
+    & + & {
+        margin-top: 12px;
+    }
+
+    &__header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__progressBar {
+        display: flex;
+        align-items: center;
+    }
+
+    &__name {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}

@@ -1,0 +1,23 @@
+.container {
+    width: auto;
+    max-width: 400px;
+    padding: 50px;
+    border: 1px solid var(--gray100);
+    margin-top: 24px;
+}
+
+.header {
+    text-align: center;
+}
+
+.email {
+    margin-top: 24px;
+}
+
+.field {
+    margin-bottom: 24px;
+}
+
+.error {
+    margin-top: 12px;
+}
