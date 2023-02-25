@@ -49,6 +49,8 @@ export const loginUser = createAsyncThunk<
 >('users/loginUser', async (params, { rejectWithValue }) => {
     try {
         const { data } = await axiosInstance.post<TokenUser>('/auth/login', params);
+        window.localStorage.setItem('token', data.token);
+
         return data;
     } catch (err) {
         let error = err as AxiosError<ValidationErrors>;

@@ -45,9 +45,7 @@ const Login: FunctionComponent = () => {
     });
 
     const onSubmit = (values: FormData) => {
-        dispatch(loginUser(values))
-            .unwrap()
-            .then((res) => window.localStorage.setItem('token', res.token));
+        dispatch(loginUser(values));
     }
 
     return (
